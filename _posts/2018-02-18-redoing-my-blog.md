@@ -3,6 +3,7 @@ layout: post
 title:  "Redoing my blog"
 date:   2018-02-18 16:04:45 +0800
 categories: jekyll blog
+author: Jerome
 ---
 
 Previously, I created my blog in a [Digital Ocean droplet][digital-ocean-home]
