@@ -2,7 +2,7 @@
 layout: post
 title:  "Redoing my blog"
 date:   2018-02-18 16:04:45 +0800
-categories: jekyll update
+categories: jekyll blog
 ---
 
 Previously, I created my blog in a [Digital Ocean droplet][digital-ocean-home]
@@ -29,6 +29,6 @@ so I didn't have to setup much.
 
 Expect more posts to come here.
 
-[digital-ocean-home][https://www.digitalocean.com]
-[github-pages-home][https://pages.github.com]
-[jekyllrb-home][https://jekyllrb.com]
+[digital-ocean-home]: https://www.digitalocean.com
+[github-pages-home]: https://pages.github.com
+[jekyllrb-home]: https://jekyllrb.com
