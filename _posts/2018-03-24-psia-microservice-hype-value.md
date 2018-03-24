@@ -12,14 +12,13 @@ at the Makati Shangri-La. Lucky enough, we arrived very early and were able to
 reserve the seats in the best possible location - just behind the speakers'
 seats, in front of the podium. 
 
-The program had three main talks and a panel discussion;
+The program had three main talks and a panel discussion:
 1. Introduction to Microservices
 2. Microservices with Spring Cloud (it uses Java)
 3. Implementing Event-driven Microservices
 
 I wasn't sure what to expect since it was my first time to attend a seminar
-organized by the PSIA but it turned out I learned some useful and practical
-insights from the seminar.
+organized by the PSIA but it turned out to be very insightful for me.
 
 ### Introduction to Microservices
 
@@ -47,8 +46,8 @@ codebase. Thus, it makes sense (as suggested by Microservices approach) to
 split the business into each business capability of the company, all of which
 has its own Microservice. 
 
-This splitting up into Microservices enables ecah business capability to
-rollout features as fast as the want together with the development team that
+This splitting up into Microservices enables each business capability to
+rollout features as fast as they want together with the development team that
 maintains the Microservice. This also introduces flexibility in choosing which
 technology the team could adopt for the task at hand. 
 
@@ -77,7 +76,7 @@ full-text searches.
 
 ### Microservices with Spring Cloud
 
-After introducing what Microservices are and showing how it can help solving
+After introducing what Microservices are and showing how it can help to solve
 some of the challenges a growing company might encounter, he went on to the
 next talk which was the usage of Spring Cloud to implement Microservices.
 I won't delve into the tech itself, just acess it [here][spring-cloud-link].
@@ -94,7 +93,7 @@ configuration from a single configuration server and adjust accordingly.
 This pattern introduces a facade for the set of microservices so as not to
 overwhelm the consuming client about the possibly extreme granularity of the
 APIs exposed by each service. The gateway serves as the handler of the client
-request and to each of the microservices.
+request to each of the microservices.
 
 #### 3. Service Registry
 
@@ -125,7 +124,7 @@ on an iPad.
 
 #### EventStorming
 
-In this segment, she talked about how to organize the core events into each
+In this segment she talked about how to organize the core events into each
 microservice and identify the policies and commands involved in the e-commerce
 system example. Saga was also introduced, which from my understanding is just
 a long story (like an epic. did you get it?). This became the foundation for
@@ -133,7 +132,7 @@ the next segment which was ...
 
 #### Choreography vs. Orchestration
 
-In this segment she differentiated the differences, advantages, and
+She differentiated the differences, advantages, and
 disadvantages of Choreography and Orchestration.
 
 Orchestration is an approach where you basically have a _maestro_ who conducts
@@ -170,7 +169,7 @@ the bounded context properly to lay out the Microservice infrastructure.
 This architecture is advanced and thus needs skills and control in place.
 Debugging itself can be harder if all is not planned properly. Logging and
 monitoring should be established enough to aid in identifying the bottleneck in
-the system. For other teams who maintain a relatively small product for now
+the system. Other teams who maintain a relatively small product for now
 might not need to adopt this architecture but can choose to make services
 little-by-little when the product is already growing bigger. Also, it is not
 advisable to go full on Microservices if there really isn't a need. 
