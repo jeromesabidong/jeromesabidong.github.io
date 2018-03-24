@@ -189,7 +189,3 @@ do it on one of the business capabilities first, then slowly ease into
 converting other services once you get the hang of it.
 
 [spring-cloud-link]: http://projects.spring.io/spring-cloud/
-
-Link within Post [link][link-ref]
-
-[jjlink-ref]: http://path/to/link
